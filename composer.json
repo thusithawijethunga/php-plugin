@@ -1,0 +1,31 @@
+{
+    "name": "thusitha/php-plugin",
+    "description": "php plugin",
+    "keywords": [
+        "php",
+        "plugin"
+    ],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.1"
+    },
+    "autoload": {
+        "files": [
+            "src/helper.php"
+        ],
+        "psr-4": {
+            "Thusitha\\PhpPlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thusitha Avinda",
+            "email": "thusithawijethunga@gmail.com",
+            "homepage": "https://github.com/thusithawijethunga",
+            "role": "Owner"
+        }
+    ],
+    "homepage": "https://github.com/thusithawijethunga",
+    "prefer-stable": true
+}
